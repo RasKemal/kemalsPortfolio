@@ -365,7 +365,7 @@ img{
     display: inline-block;
     background-color: var(--first-color);
     color: #FFF;
-    padding: 1rem;
+    padding: 1.0rem;
     border-radius: 5rem;
     font-weight: var(--font-medium);
 }
@@ -383,6 +383,12 @@ img{
 .button--flex{
     display: inline-flex;
     align-items: center;
+}
+
+.button_container {
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 /*==================== ABOUT ====================*/
@@ -554,7 +560,7 @@ img{
 }
 
 .portfolio__content{
-    padding: 0 1.5rem;
+    padding: 2.5rem 1.5rem;
 }
 
 .portfolio__img{
